@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-04-25T15:42:43 IST" name="Default suite" finished-at="2024-04-25T15:43:07 IST" duration-ms="24407">
+    <groups>
+    </groups>
+    <test started-at="2024-04-25T15:42:43 IST" name="Default test" finished-at="2024-04-25T15:43:07 IST" duration-ms="24407">
+      <class name="day39.NopCommerce">
+        <test-method is-config="true" signature="setup()[pri:0, instance:day39.NopCommerce@4dbb42b7]" started-at="2024-04-25T15:42:43 IST" name="setup" finished-at="2024-04-25T15:42:52 IST" duration-ms="8839" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testLogo()[pri:1, instance:day39.NopCommerce@4dbb42b7]" started-at="2024-04-25T15:42:52 IST" name="testLogo" finished-at="2024-04-25T15:42:52 IST" duration-ms="120" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogo -->
+        <test-method signature="testLogin()[pri:2, instance:day39.NopCommerce@4dbb42b7]" started-at="2024-04-25T15:42:52 IST" name="testLogin" finished-at="2024-04-25T15:43:00 IST" duration-ms="8466" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method signature="testLogout()[pri:3, instance:day39.NopCommerce@4dbb42b7]" started-at="2024-04-25T15:43:00 IST" name="testLogout" finished-at="2024-04-25T15:43:05 IST" depends-on-methods="day39.NopCommerce.testLogin" duration-ms="4456" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogout -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:day39.NopCommerce@4dbb42b7]" started-at="2024-04-25T15:43:05 IST" name="tearDown" finished-at="2024-04-25T15:43:07 IST" duration-ms="2408" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- day39.NopCommerce -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
